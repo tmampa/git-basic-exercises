@@ -1,0 +1,66 @@
+    1  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    2  sudo apt install curl
+    3  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    4  sudo apt install git
+    5  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    6  clear
+    7  sudo apt install build-essential
+    8  ./configure
+    9  make
+   10  make install
+   11  sudo make install
+   12  python3 -V
+   13  git init
+   14  git config --global user.name 'tmampa'
+   15  git config --global user.email 'tmampa94@gmail.com'
+   16  clear
+   17  ls -a
+   18  git status
+   19  touch README.md
+   20  ls -a
+   21  git status
+   22  git log
+   23  git add
+   24  git add .
+   25  git status
+   26  git rm --cached .
+   27  git rm --cached README.md
+   28  git status
+   29  git add .
+   30  git commit -m "initial commit"
+   31  git log
+   32  clear
+   33  nano README.md
+   34  cat README.md
+   35  git status
+   36  git commit -m 'second commi'
+   37  clear
+   38  git status
+   39  git add .
+   40  git commit -m 'second commi'
+   41  nano README.md
+   42  cat README.md 
+   43  git add .
+   44  git commit -m 'third commit'
+   45  git log
+   46  clear
+   47  git log
+   48  git checkout 23744e564fd18b876221b66c025a715143e27305
+   49  cat README.md
+   50  git checkout main
+   51  git checkout master
+   52  git branch -M main
+   53  clear
+   54  git branch
+   55  git branch -b milkshake-flavours
+   56  git checkout -b milkshake-flavours
+   57  git branch
+   58  nano milkshakes,md
+   59  git status
+   60  git add .
+   61  git commit -m 'added initial flavours'
+   62  git log
+   63  git checkout main
+   64  git checkout -b history
+   65  git log
+   66  git branch
